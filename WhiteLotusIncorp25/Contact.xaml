@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhiteLotusIncorp25.Contact"
+             Title="Contact">
+    <StackLayout>
+        <Entry Placeholder="From" Margin="10" />
+        <Entry Placeholder="Subject" Margin="10" />
+        <Entry Placeholder="To" Margin="10" />
+        <Entry Placeholder="CC" Margin="10" />
+        <Editor Placeholder="Message" Margin="10" HeightRequest="200" />
+
+        <Button Text="Send" Margin="10" />
+    </StackLayout>
+</ContentPage>

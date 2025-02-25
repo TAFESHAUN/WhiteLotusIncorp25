@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhiteLotusIncorp25.Login"
+             Title="Login">
+    <StackLayout>
+        <Entry Placeholder="Username" Margin="10" />
+        <Entry Placeholder="Password" IsPassword="True" Margin="10" />
+
+        <Button Text="Sign In" Margin="10" />
+        <Button Text="Sign Up" Margin="10" />
+        <Button Text="Forgot Password" Margin="10" />
+    </StackLayout>
+</ContentPage>

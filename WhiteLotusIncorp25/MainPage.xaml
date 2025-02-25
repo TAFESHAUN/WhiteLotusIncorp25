@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhiteLotusIncorp25.MainPage">
+
+    <StackLayout>
+        <Label Text="Home" HorizontalOptions="CenterAndExpand" FontSize="Title" Margin="0,20,0,20" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Image Source="dotnet_bot.png" VerticalOptions="CenterAndExpand" WidthRequest="100" HeightRequest="100" />
+
+            <StackLayout HorizontalOptions="FillAndExpand">
+                <!-- News Cards will be added dynamically here -->
+                <!-- Example Card -->
+                <Frame CornerRadius="10" BackgroundColor="Coral" Margin="10">
+                    <StackLayout Padding="10">
+                        <Label Text="News Title" FontSize="Medium" FontAttributes="Bold" />
+                        <Label Text="News Description" FontSize="Small" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

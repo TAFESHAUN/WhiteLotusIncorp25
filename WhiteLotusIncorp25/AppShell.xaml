@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="WhiteLotusIncorp25.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:WhiteLotusIncorp25"
+    Shell.FlyoutBehavior="Flyout"
+    Title="WhiteLotusIncorp25">
+    
+    <TabBar>
+        <Tab Title="Home">
+            <ShellContent
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        </Tab>
+        <Tab Title="Login">
+            <ShellContent
+          ContentTemplate="{DataTemplate local:Login}"
+          Route="Login" />
+        </Tab>
+        <Tab Title="News">
+
+            <ShellContent
+          ContentTemplate="{DataTemplate local:News}"
+          Route="News" />
+        </Tab>
+        <Tab Title="Contact Us">
+
+            <ShellContent 
+            ContentTemplate="{DataTemplate local:Contact}"
+            Route="Contact"
+            />
+        </Tab>
+    </TabBar>
+
+</Shell>
