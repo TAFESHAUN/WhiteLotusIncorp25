@@ -7,6 +7,6 @@
         <!--NEWS HERE-->
         <Label Text="Some Cool News" FontSize="Large" HorizontalOptions="Center"/>
         <Entry Placeholder="Enter a cool news title" x:Name="CoolNews"/>
-        <Button Text="Find out more" Clicked="Button_Clicked" HorizontalOptions="Center"/>
+        <Button x:Name="newsBtn" Text="Find out more" Clicked="Button_Clicked" HorizontalOptions="Center"/>
     </StackLayout>
 </ContentPage>
